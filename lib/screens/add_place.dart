@@ -16,6 +16,11 @@ class _AddPlaceState extends State<AddPlace> {
       body: Column(
         children: <Widget>[
           Text('User Input'),
+          RaisedButton.icon(
+            icon: Icon(Icons.add),
+            label: Text('Add Place'),
+            onPressed: () {},
+          ),
         ],
       ),
     );
