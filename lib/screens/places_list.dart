@@ -14,7 +14,7 @@ class PlacesList extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: Text('Hey'),
+        child: CircularProgressIndicator(),
       ),
     );
   }
