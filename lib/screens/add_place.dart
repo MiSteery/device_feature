@@ -9,6 +9,7 @@ class AddPlace extends StatefulWidget {
 class _AddPlaceState extends State<AddPlace> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
+
