@@ -11,9 +11,13 @@ class _AddPlaceState extends State<AddPlace> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text('Add a New Place'),
+        title: Text('Add a New Place'),
+      ),
+      body: Column(
+        children: <Widget>[
+          Text('User Input'),
+        ],
       ),
     );
   }
 }
-
