@@ -14,6 +14,7 @@ class _AddPlaceState extends State<AddPlace> {
         title: Text('Add a New Place'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text('User Input'),
           RaisedButton.icon(
