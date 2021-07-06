@@ -1,3 +1,4 @@
+import 'package:device_feature/screens/add_place.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -19,6 +20,9 @@ class MyApp extends StatelessWidget {
           accentColor: Colors.amber,
         ),
         home: PlacesList(),
+        routes: {
+          AddPlace.routeName: (ctx) => AddPlace(),
+        },
       ),
     );
   }
