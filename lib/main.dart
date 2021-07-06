@@ -1,8 +1,8 @@
-import 'package:device_feature/screens/add_place.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'package:device_feature/providers/great_places.dart';
+import 'package:device_feature/screens/add_place.dart';
 import 'package:device_feature/screens/places_list.dart';
 
 void main() => runApp(MyApp());
