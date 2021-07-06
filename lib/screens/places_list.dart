@@ -1,3 +1,4 @@
+import 'package:device_feature/screens/add_place.dart';
 import 'package:flutter/material.dart';
 
 class PlacesList extends StatelessWidget {
@@ -9,7 +10,9 @@ class PlacesList extends StatelessWidget {
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.add),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlace.routeName);
+            },
           ),
         ],
       ),
