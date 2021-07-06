@@ -9,7 +9,11 @@ class AddPlace extends StatefulWidget {
 class _AddPlaceState extends State<AddPlace> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title:Text('Add a New Place'),
+      ),
+    );
   }
 }
 
