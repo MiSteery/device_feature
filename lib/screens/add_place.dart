@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddPlace extends StatefulWidget {
+  static const routeName = '/add-place';
   @override
   _AddPlaceState createState() => _AddPlaceState();
 }
