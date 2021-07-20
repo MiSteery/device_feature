@@ -15,6 +15,7 @@ class _AddPlaceState extends State<AddPlace> {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Text('User Input'),
           RaisedButton.icon(
