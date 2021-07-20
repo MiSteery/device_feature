@@ -7,6 +7,7 @@ class AddPlace extends StatefulWidget {
 }
 
 class _AddPlaceState extends State<AddPlace> {
+  final _titleController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +22,12 @@ class _AddPlaceState extends State<AddPlace> {
               child: Padding(
                 padding: EdgeInsets.all(10),
                 child: Column(
-                  children: <Widget>[],
+                  children: <Widget>[
+                    TextField(
+                      decoration: InputDecoration(labelText: 'Title'),
+                      controller: _titleController,
+                    )
+                  ],
                 ),
               ),
             ),
