@@ -25,7 +25,10 @@ class _ImageInputState extends State<ImageInput> {
                   fit: BoxFit.cover,
                   width: double.infinity,
                 )
-              : Text('No image Taken'),
+              : Text(
+                  'No image Taken',
+                  textAlign: TextAlign.center,
+                ),
           alignment: Alignment.center,
         ),
         SizedBox(
@@ -36,7 +39,7 @@ class _ImageInputState extends State<ImageInput> {
             icon: Icon(Icons.camera),
             label: Text('Take Picture'),
             textColor: Theme.of(context).primaryColor,
-            onPressed: (){},
+            onPressed: () {},
           ),
         ),
       ],
