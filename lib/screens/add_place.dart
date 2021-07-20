@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:device_feature/widgets/imgae_input.dart';
+
 class AddPlace extends StatefulWidget {
   static const routeName = '/add-place';
   @override
@@ -26,7 +28,11 @@ class _AddPlaceState extends State<AddPlace> {
                     TextField(
                       decoration: InputDecoration(labelText: 'Title'),
                       controller: _titleController,
-                    )
+                    ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    ImageInput(),
                   ],
                 ),
               ),
