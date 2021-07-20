@@ -14,10 +14,13 @@ class _AddPlaceState extends State<AddPlace> {
         title: Text('Add a New Place'),
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          Text('User Input'),
+          Expanded(
+            child: Column(
+              children: <Widget>[],
+            ),
+          ),
           RaisedButton.icon(
             icon: Icon(Icons.add),
             label: Text('Add Place'),
