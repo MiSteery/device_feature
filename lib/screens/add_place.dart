@@ -18,8 +18,11 @@ class _AddPlaceState extends State<AddPlace> {
         children: <Widget>[
           Expanded(
             child: SingleChildScrollView(
-              child: Column(
-                children: <Widget>[],
+              child: Padding(
+                padding: EdgeInsets.all(10),
+                child: Column(
+                  children: <Widget>[],
+                ),
               ),
             ),
           ),
