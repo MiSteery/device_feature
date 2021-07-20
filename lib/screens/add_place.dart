@@ -17,8 +17,10 @@ class _AddPlaceState extends State<AddPlace> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Expanded(
-            child: Column(
-              children: <Widget>[],
+            child: SingleChildScrollView(
+              child: Column(
+                children: <Widget>[],
+              ),
             ),
           ),
           RaisedButton.icon(
